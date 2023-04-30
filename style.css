@@ -7,13 +7,18 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: rgb(241, 134, 4);
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 175px;
+
 }
 
 .Half-width {
@@ -60,4 +65,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.Shado-develop {
+    width: 50%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px rgb(8, 8, 181);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    border-color: blue;
+
+}
+
+.Expriance {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+
+#web-developExpriance {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+
+#Baby-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
