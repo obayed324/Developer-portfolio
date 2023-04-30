@@ -27,7 +27,7 @@ section {
 .Link-Button {
     text-decoration: none;
     background-image: linear-gradient(rgb(243, 161, 8), rgb(227, 59, 30));
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-style: oblique;
     font-size: 18px;
     border-radius: 10px;
